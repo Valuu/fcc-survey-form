@@ -1,0 +1,22 @@
+#body {
+  background-color: burlywood;
+  text-align: center;
+  display: grid;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+#title {
+}
+
+#description {
+  font-style: italic;
+}
+
+#survey {
+  background-color: white;
+  width: 70%;
+  justify-self: center;
+}

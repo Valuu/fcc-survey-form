@@ -1,0 +1,65 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Survey Form for doing nothing</title>
+  <link rel="stylesheet" href="survey.css">
+</head>
+
+<body id="body">
+  <header>
+    <h1 id="title">Survey Form</h1>
+  </header>
+  <div id="survey">
+    <p id="description"> This is a description of the following form</p>
+    <form id="survey-form">
+      <div>
+        <label for="name" id="name-label">Name :</label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+      </div>
+      <div>
+        <label for="email" id="email-label"> Email :</label>
+        <input type="email" id="email" name="email" placeholder="email@example.com" required>
+      </div>
+      <div>
+        <label for="age" id="number-label"> Age :</label>
+        <input type="number" id="number" name="age" min="18" max="122" placeholder="51">
+      </div>
+      <div>
+        <label for="country" id="country-label"> Country :</label>
+        <select id="dropdown" name="country">
+          <option value="france">France</option>
+          <option value="espagne">Espagne</option>
+          <option value="angleterre">Angleterre</option>
+          <option value="italie">Italie</option>
+          <option value="portugal">Portugal</option>
+      </select>
+      </div>
+      <div>
+        <label for="sex" id="sex-label">Sex :</label>
+        <input type="radio" name="sex" value="Male">Male
+        <input type="radio" name="sex" value="Female">Female
+        <input type="radio" name="sex" value="Other">Other
+      </div>
+      <div>
+        <label for="tictactoe" id="tictactoe-label">Tic, Tac or Toe :</label>
+        <input type="checkbox" name="tictactoe" value="Tic">Tic
+        <input type="checkbox" name="tictactoe" value="Tac">Tac
+        <input type="checkbox" name="tictactoe" value="Toe">Toe
+      </div>
+      <div>
+        <label for="description" id="description-label">Comments :</label>
+        <textarea name="description" rows="4" cols="50" placeholder="Enter any additional comments here">
+      </textarea>
+      </div>
+      <div>
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
